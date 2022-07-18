@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Following(props) {
-    return <h1>Following Page</h1>;
+    return <h2>Following Page</h2>;
 }
 
 export default Following;

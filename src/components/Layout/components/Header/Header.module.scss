@@ -23,15 +23,20 @@
 .logo {
 }
 
+.search,
+.search-result {
+    width: 361px;
+}
+
 .search {
     display: flex;
-    width: 361px;
     height: var(--search-height);
     padding: 0 0 0 16px;
 
     background-color: rgba(22, 24, 35, 0.06);
     border-radius: var(--search-border-radius);
-    border: 1.5px solid transparent;
+    border: 1.5px solid;
+    border-color: white;
     position: relative;
 
     input {
@@ -62,6 +67,13 @@
     &:focus-within {
         border-color: rgba(22, 24, 35, 0.2);
     }
+}
+
+.search-title {
+    padding: 5px 12px;
+    font-size: 1.4rem;
+    font-weight: 600px;
+    color: rgba(22, 24, 35, 0.5);
 }
 
 .clear,
